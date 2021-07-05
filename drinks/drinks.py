@@ -1,5 +1,5 @@
 class Drink:
-    def __init__(self, ice=False, flavor, sweetness, straw=False):
+    def __init__(self, flavor, sweetness, straw=False, ice=False):
         self.ice = ice
         self.flavor = flavor
         self.sweetness = sweetness
